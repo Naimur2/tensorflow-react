@@ -1,0 +1,18 @@
+.hcard {
+    max-width: 768px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #7e7777;
+    background: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    background: rgb(43, 44, 49);
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
