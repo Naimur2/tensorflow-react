@@ -58,7 +58,7 @@ export default function TensorFlowModel() {
     const loadModelFunction = async (image) => {
         try {
             const fetchdModel = await tf.loadLayersModel(
-                "http://localhost:4000/model/model.json"
+                "http://localhost:4000/models/vgg16/model.json"
             );
             setModel(fetchdModel);
             setError(null);
